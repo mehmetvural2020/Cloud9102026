@@ -1,0 +1,24 @@
+{
+  "name": "cloud9102026",
+  "version": "1.0.0",
+  "description": "A minimal full-stack task manager used to exercise the Cloud Agent development environment.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "eslint": "^9.9.0",
+    "supertest": "^7.0.0"
+  }
+}
